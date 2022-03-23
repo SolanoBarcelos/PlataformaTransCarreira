@@ -1,0 +1,10 @@
+package br.recode.TransCarreiras;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TransCarreirasApplication {
+	
+
+
+}

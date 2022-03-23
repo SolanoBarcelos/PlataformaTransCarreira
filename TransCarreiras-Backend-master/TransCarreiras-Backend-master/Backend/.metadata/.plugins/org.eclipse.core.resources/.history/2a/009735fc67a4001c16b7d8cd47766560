@@ -1,0 +1,53 @@
+package br.recode.TransCarreiras;
+
+import java.util.Arrays;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import br.recode.TransCarreiras.entities.Curso;
+import br.recode.TransCarreiras.entities.TransUser;
+import br.recode.TransCarreiras.repositories.CursoRepository;
+import br.recode.TransCarreiras.repositories.EmpregoRepository;
+import br.recode.TransCarreiras.repositories.EmpresaRepository;
+import br.recode.TransCarreiras.repositories.TransUserRepository;
+
+@SpringBootApplication
+public class TransCarreirasApplication /*implements CommandLineRunner */ {
+	
+	/*
+	@Autowired
+	private TransUserRepository transRepository;
+	
+	@Autowired
+	private CursoRepository cursoRepository;
+	
+	@Autowired
+	private EmpregoRepository empregoRepository;
+	
+	@Autowired
+	private EmpresaRepository empresaRepository;
+
+	public static void main(String[] args) {
+		SpringApplication.run(TransCarreirasApplication.class, args);
+	}
+
+	
+	@Override
+	public void run(String... args) throws Exception {
+		
+
+		TransUser trans1 = new TransUser(null, "Roberta", "rob@gmail.com", "11 9999-9999", c1, e1);
+		TransUser trans2 = new TransUser(null, "Joelma", "jo@yahoo.br", "21  5555-5555", c2, e2);
+		
+		Curso curso1 = new Curso(null, "Java", "Curso de Java", "www.cursojava.br");
+		Curso curso2 = new Curso(null, "HTML", "Curso de Html", "www.aprendahtml.com.br");
+
+		trans1.getCurso().addAll(Arrays.asList(curso1));
+		trans2.getCurso().addAll(Arrays.asList(curso2));
+		*/
+	}
+
+}

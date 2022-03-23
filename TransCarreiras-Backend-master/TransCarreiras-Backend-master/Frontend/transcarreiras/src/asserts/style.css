@@ -1,0 +1,153 @@
+
+* {
+  font-family: "Arial";
+  overflow-y: hidden;
+}
+
+/* -- CSS DO MENU */
+
+.logo {
+  position: relative;
+  width: 40%;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 60px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+/*
+#Menu {
+  background-color: rgba(101, 53, 155, 1);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid rgba(101, 53, 155, 1) ;
+}
+*/
+
+.navbar {
+  background-color: rgba(101, 53, 155, 1);
+  margin-bottom: 50px;
+  
+}
+
+.navbar-nav {
+  color: #fff;
+  
+}
+
+.navbar-nav li {
+  margin-left: 50px;
+}
+
+.navbar-nav a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+/* -- CSS DO MENU TOGGLE */
+
+button.navbar-toggler {
+  background-color: rgba(250, 212, 220, 1);
+  box-shadow: 2px 2px 3px lightslategray;
+}
+
+.menuToggler {
+  height: 20px;
+  width: 30px;
+  padding: 1px;
+  padding: none;
+
+}
+
+.um{
+  height: 2px;
+  width: 50%;
+  background-color: black;
+  align-items: center;
+  margin: 2px;
+  align-content:flex-start;
+  padding: none;
+}
+
+.dois {
+  height: 2px;
+  width: 50%;
+  background-color: black;
+  align-items: center;
+  margin: 2px;
+  align-content:flex-start;
+  padding: none;
+}
+
+.tres {
+  height: 2px;
+  width: 50%;
+  background-color: black;
+  align-items: center;
+  margin: 2px;
+  align-content:flex-start;
+  padding: none;
+}
+
+
+/*
+
+.nav-item {
+  margin: 15px;
+  color: #fff;
+  color: none;
+}
+
+#Menu link {
+  font-size: 15px;
+  color: #fff;
+}
+
+#link {
+  color: #fff;
+}
+
+#link:hover {
+  color: rgba(250, 212, 220, 1);
+  text-decoration: none;
+}
+*/
+
+/* -- CSS DO HOME*/
+
+.pg-admin {
+  background-color: rgb(219, 214, 214);
+  margin: 0 auto;
+  width: 80%;
+  height: 42vh;
+  padding: 80px 0 0 50px;
+  box-shadow: 1px 2px 3px rgba(70, 67, 67, 0.7);
+  background-image: url();
+  background-repeat: no-repeat;
+}
+
+/* -- CSS DO FOOTER*/
+
+.footer {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    color: #ffff;
+    justify-content: space-evenly;
+    background-color: rgba(101, 53, 155, 1);
+    margin-top: 185px;
+
+}
+
+.footer p {
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+
